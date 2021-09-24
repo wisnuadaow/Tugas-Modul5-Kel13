@@ -80,7 +80,7 @@ export default function Aplikasi() {
   return (
     <>
         <div>
-    <h1 className="margin"><center>Tugas Modul 5 </center> </h1>
+    <h1 className="margin"><center>Tugas Modul 5 - Kelompok 13</center> </h1>
     </div>
     <div>
       <ThemeContext.Provider value={valueTheme}>
@@ -98,22 +98,21 @@ export default function Aplikasi() {
         >
           <ThemeContext.Provider value={valueTheme}>
             <div
-              className="contentWrapper"
-              style={{ backgroundColor: valueTheme.background }}
+              
               className={`contentWrapper ${
                 valueTheme === themes.dark ? "light" : "dark"
               }`}
             >
               <Grid
           container
-          md={7}
+          md={10}
           spacing={3}
-          style={{ marginTop: "50px", marginLeft: "50px" }}
+          style={{ marginTop: "auto", marginLeft: "auto", marginRight: "auto", marginButtom: "auto" }}
           
         >
-          {db.length > 0 && db.map((results, index) => 
+          {db.length > 0 && db.map((results) => 
              (
-              <Grid item key={results.id} md={5}>
+              <Grid item key={results.id} md={3}>
                 <Card>
                   <CardActionArea onClick={lihatModal}>
                     <CardContent>
