@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Wisnu",
+            "username": "Wisnu",
+            "email": "Wisnu@gmail.com",
+            "address": "Jalan"
+        },
+        {
+            "id": 2,
+            "name": "Adi",
+            "username": "Adi",
+            "email": "Adi@gmail.com",
+            "address": "Parang"
+        },
+        {
+            "id": 3,
+            "name": "Pramono",
+            "username": "Pramono",
+            "email": "Pramono@gmail.com",
+            "address": "Kembang"
+        },
+        {
+            "id": 4,
+            "name": "Wisnu1",
+            "username": "Wisnu1",
+            "email": "Wisnu1@gmail.com",
+            "address": "Tiga"
+        },
+        {
+            "id": 5,
+            "name": "Adi1",
+            "username": "Adi1",
+            "email": "Adi1@gmail.com",
+            "address": "Nomor"
+        },
+        {
+            "id": 6,
+            "name": "Pramono1",
+            "username": "Pramono1",
+            "email": "pramono1@gmail.com",
+            "address": "Satu"
+        },
+        {
+            "id": 7,
+            "name": "Wisnu2",
+            "username": "Wisnu2",
+            "email": "Wisnu2@gmail.com",
+            "address": "RT 02"
+        },
+        {
+            "id": 8,
+            "name": "Adi2",
+            "username": "Adi2",
+            "email": "Adi2@gmail.com",
+            "address": "RW 20"
+        },
+        {
+            "id": 9,
+            "name": "Pramono2",
+            "username": "Pramono2",
+            "email": "Pramono2@gmail.com",
+            "address": "Tlogosari Kulon"
+        },
+        {
+            "id": 10,
+            "name": "Wisnu3",
+            "username": "Wisnu3",
+            "email": "Wisnu3@gmail.com",
+            "address": "Pedurungan"
+        }
+    ]
+}
