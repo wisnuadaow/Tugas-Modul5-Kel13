@@ -115,11 +115,11 @@ export default function Aplikasi() {
               <Grid item key={results.id} md={3}>
                 <Card>
                   <CardActionArea onClick={lihatModal}>
-                    <CardContent>
-                      <Typography>Nama: {results.name}</Typography>
-                      <Typography>Username: {results.username}</Typography>
-                      <Typography>Email: {results.email}</Typography>
-                      <Typography>Alamat: {results.address}</Typography>
+                    <CardContent style={{ backgroundColor: "#9eadb6" }}>
+                      <Typography style={{color:"#ffffff"}}>Nama: {results.name}</Typography>
+                      <Typography>Username : {results.username}</Typography>
+                      <Typography>Email : {results.email}</Typography>
+                      <Typography>Alamat : {results.address}</Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
